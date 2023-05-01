@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url(./images/wp\ hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 39px;
+    font-style: italic;
+    color: #fff;
+    margin-top: 30px;
+}
+.container{
+    width: 60%;
+    height:auto;
+    margin: 90px auto;
+    opacity: 0.7;
+    border-radius: 20px;
+}
+img{
+    height: 30px;
+    cursor: pointer;
+}
+input{
+    width: 70%;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 76px;
+    border-radius: 17px;
+    
+}
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 15px;
+}
+ul li{
+    display: flex;
+    font-size: 22px;
+    background-color: beige;
+    border-radius: 20px;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 20px;
+    
+}
